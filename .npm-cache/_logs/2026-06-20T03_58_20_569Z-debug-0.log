@@ -1,0 +1,831 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@11.12.1
+2 info using node@v24.15.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/.npmrc
+5 silly config load:file:/Users/itsmeck/.npmrc
+6 silly config load:file:/usr/local/etc/npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" "./.npm-cache"
+9 verbose logfile logs-max:10 dir:/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/.npm-cache/_logs/2026-06-20T03_58_20_569Z-
+10 verbose logfile /Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/.npm-cache/_logs/2026-06-20T03_58_20_569Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+13 silly idealTree buildDeps
+14 silly fetch manifest vite@^8.0.16
+15 silly packumentCache full:https://registry.npmjs.org/vite cache-miss
+16 http cache https://registry.npmjs.org/vite 234ms (cache hit)
+17 silly packumentCache full:https://registry.npmjs.org/vite set size:38868983 disposed:false
+18 silly fetch manifest @types/node@^20.19.0 || >=22.12.0
+19 silly packumentCache full:https://registry.npmjs.org/@types%2fnode cache-miss
+20 http cache https://registry.npmjs.org/@types%2fnode 56ms (cache hit)
+21 silly packumentCache full:https://registry.npmjs.org/@types%2fnode set size:11055511 disposed:false
+22 silly fetch manifest @vitejs/devtools@^0.1.18
+23 silly packumentCache full:https://registry.npmjs.org/@vitejs%2fdevtools cache-miss
+24 http fetch GET 200 https://registry.npmjs.org/@vitejs%2fdevtools 155ms (cache miss)
+25 silly packumentCache full:https://registry.npmjs.org/@vitejs%2fdevtools set size:undefined disposed:false
+26 silly fetch manifest esbuild@^0.27.0 || ^0.28.0
+27 silly packumentCache full:https://registry.npmjs.org/esbuild cache-miss
+28 http cache https://registry.npmjs.org/esbuild 9ms (cache hit)
+29 silly packumentCache full:https://registry.npmjs.org/esbuild set size:1259608 disposed:false
+30 silly fetch manifest jiti@>=1.21.0
+31 silly packumentCache full:https://registry.npmjs.org/jiti cache-miss
+32 http cache https://registry.npmjs.org/jiti 9ms (cache hit)
+33 silly packumentCache full:https://registry.npmjs.org/jiti set size:387989 disposed:false
+34 silly fetch manifest less@^4.0.0
+35 silly packumentCache full:https://registry.npmjs.org/less cache-miss
+36 http cache https://registry.npmjs.org/less 6ms (cache hit)
+37 silly packumentCache full:https://registry.npmjs.org/less set size:471774 disposed:false
+38 silly fetch manifest sass@^1.70.0
+39 silly packumentCache full:https://registry.npmjs.org/sass cache-miss
+40 http cache https://registry.npmjs.org/sass 9ms (cache hit)
+41 silly packumentCache full:https://registry.npmjs.org/sass set size:730445 disposed:false
+42 silly fetch manifest sass-embedded@^1.70.0
+43 silly packumentCache full:https://registry.npmjs.org/sass-embedded cache-miss
+44 http cache https://registry.npmjs.org/sass-embedded 6ms (cache hit)
+45 silly packumentCache full:https://registry.npmjs.org/sass-embedded set size:419718 disposed:false
+46 silly fetch manifest stylus@>=0.54.8
+47 silly packumentCache full:https://registry.npmjs.org/stylus cache-miss
+48 http cache https://registry.npmjs.org/stylus 6ms (cache hit)
+49 silly packumentCache full:https://registry.npmjs.org/stylus set size:286766 disposed:false
+50 silly fetch manifest sugarss@^5.0.0
+51 silly packumentCache full:https://registry.npmjs.org/sugarss cache-miss
+52 http cache https://registry.npmjs.org/sugarss 9ms (cache hit)
+53 silly packumentCache full:https://registry.npmjs.org/sugarss set size:44975 disposed:false
+54 silly fetch manifest postcss@^8.3.3
+55 silly packumentCache full:https://registry.npmjs.org/postcss cache-miss
+56 http cache https://registry.npmjs.org/postcss 10ms (cache hit)
+57 silly packumentCache full:https://registry.npmjs.org/postcss set size:723316 disposed:false
+58 silly fetch manifest terser@^5.16.0
+59 silly packumentCache full:https://registry.npmjs.org/terser cache-miss
+60 http cache https://registry.npmjs.org/terser 8ms (cache hit)
+61 silly packumentCache full:https://registry.npmjs.org/terser set size:803566 disposed:false
+62 silly fetch manifest tsx@^4.8.1
+63 silly packumentCache full:https://registry.npmjs.org/tsx cache-miss
+64 http fetch GET 200 https://registry.npmjs.org/tsx 53ms (cache miss)
+65 silly packumentCache full:https://registry.npmjs.org/tsx set size:undefined disposed:false
+66 silly fetch manifest yaml@^2.4.2
+67 silly packumentCache full:https://registry.npmjs.org/yaml cache-miss
+68 http fetch GET 200 https://registry.npmjs.org/yaml 50ms (cache miss)
+69 silly packumentCache full:https://registry.npmjs.org/yaml set size:undefined disposed:false
+70 silly fetch manifest @vitejs/plugin-react@^6.0.2
+71 silly packumentCache full:https://registry.npmjs.org/@vitejs%2fplugin-react cache-miss
+72 http cache https://registry.npmjs.org/@vitejs%2fplugin-react 7ms (cache hit)
+73 silly packumentCache full:https://registry.npmjs.org/@vitejs%2fplugin-react set size:267531 disposed:false
+74 silly fetch manifest @rolldown/plugin-babel@^0.1.7 || ^0.2.0
+75 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fplugin-babel cache-miss
+76 http fetch GET 200 https://registry.npmjs.org/@rolldown%2fplugin-babel 74ms (cache miss)
+77 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fplugin-babel set size:undefined disposed:false
+78 silly fetch manifest @babel/core@^7.29.0 || ^8.0.0-rc.1
+79 silly packumentCache full:https://registry.npmjs.org/@babel%2fcore cache-miss
+80 http cache https://registry.npmjs.org/@babel%2fcore 7ms (cache hit)
+81 silly packumentCache full:https://registry.npmjs.org/@babel%2fcore set size:788258 disposed:false
+82 silly fetch manifest @babel/plugin-transform-runtime@^7.29.0 || ^8.0.0-rc.1
+83 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-runtime cache-miss
+84 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-runtime 69ms (cache miss)
+85 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-runtime set size:undefined disposed:false
+86 silly fetch manifest @babel/runtime@^7.27.0 || ^8.0.0-rc.1
+87 silly packumentCache full:https://registry.npmjs.org/@babel%2fruntime cache-miss
+88 http fetch GET 200 https://registry.npmjs.org/@babel%2fruntime 166ms (cache miss)
+89 silly packumentCache full:https://registry.npmjs.org/@babel%2fruntime set size:undefined disposed:false
+90 silly fetch manifest rolldown@^1.0.0-rc.5
+91 silly packumentCache full:https://registry.npmjs.org/rolldown cache-miss
+92 http fetch GET 200 https://registry.npmjs.org/rolldown 110ms (cache miss)
+93 silly packumentCache full:https://registry.npmjs.org/rolldown set size:undefined disposed:false
+94 silly fetch manifest babel-plugin-react-compiler@^1.0.0
+95 silly packumentCache full:https://registry.npmjs.org/babel-plugin-react-compiler cache-miss
+96 http fetch GET 200 https://registry.npmjs.org/babel-plugin-react-compiler 61ms (cache miss)
+97 silly packumentCache full:https://registry.npmjs.org/babel-plugin-react-compiler set size:undefined disposed:false
+98 silly placeDep ROOT @vitejs/plugin-react@6.0.2 REPLACE for: upanayanam-sacred-journey@1.0.0 want: ^6.0.2
+99 silly placeDep ROOT vite@8.0.16 REPLACE for: @vitejs/plugin-react@6.0.2 want: ^8.0.0
+100 silly fetch manifest @rolldown/pluginutils@^1.0.0
+101 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fpluginutils cache-miss
+102 silly fetch manifest rolldown@1.0.3
+103 silly packumentCache full:https://registry.npmjs.org/rolldown cache-miss
+104 silly fetch manifest picomatch@^4.0.4
+105 silly packumentCache full:https://registry.npmjs.org/picomatch cache-miss
+106 silly fetch manifest tinyglobby@^0.2.17
+107 silly packumentCache full:https://registry.npmjs.org/tinyglobby cache-miss
+108 silly fetch manifest fsevents@~2.3.3
+109 silly packumentCache full:https://registry.npmjs.org/fsevents cache-miss
+110 http cache https://registry.npmjs.org/@rolldown%2fpluginutils 17ms (cache hit)
+111 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fpluginutils set size:300388 disposed:false
+112 http cache https://registry.npmjs.org/fsevents 20ms (cache hit)
+113 silly packumentCache full:https://registry.npmjs.org/fsevents set size:182472 disposed:false
+114 http cache https://registry.npmjs.org/rolldown 33ms (cache hit)
+115 silly packumentCache full:https://registry.npmjs.org/rolldown set size:3737500 disposed:false
+116 http fetch GET 200 https://registry.npmjs.org/picomatch 74ms (cache miss)
+117 silly packumentCache full:https://registry.npmjs.org/picomatch set size:undefined disposed:false
+118 http fetch GET 200 https://registry.npmjs.org/tinyglobby 143ms (cache miss)
+119 silly packumentCache full:https://registry.npmjs.org/tinyglobby set size:undefined disposed:false
+120 silly placeDep ROOT @rolldown/pluginutils@1.0.1 OK for: @vitejs/plugin-react@6.0.2 want: ^1.0.0
+121 silly placeDep ROOT fsevents@2.3.3 OK for: vite@8.0.16 want: ~2.3.3
+122 silly placeDep ROOT picomatch@4.0.4 OK for: vite@8.0.16 want: ^4.0.4
+123 silly placeDep ROOT rolldown@1.0.3 OK for: vite@8.0.16 want: 1.0.3
+124 silly placeDep ROOT tinyglobby@0.2.17 OK for: vite@8.0.16 want: ^0.2.17
+125 silly fetch manifest @oxc-project/types@=0.133.0
+126 silly packumentCache full:https://registry.npmjs.org/@oxc-project%2ftypes cache-miss
+127 silly fetch manifest @rolldown/binding-darwin-x64@1.0.3
+128 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-darwin-x64 cache-miss
+129 silly fetch manifest @rolldown/binding-freebsd-x64@1.0.3
+130 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-freebsd-x64 cache-miss
+131 silly fetch manifest @rolldown/binding-wasm32-wasi@1.0.3
+132 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-wasm32-wasi cache-miss
+133 silly fetch manifest @rolldown/binding-darwin-arm64@1.0.3
+134 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-darwin-arm64 cache-miss
+135 silly fetch manifest @rolldown/binding-android-arm64@1.0.3
+136 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-android-arm64 cache-miss
+137 silly fetch manifest @rolldown/binding-linux-x64-gnu@1.0.3
+138 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-linux-x64-gnu cache-miss
+139 http fetch GET 200 https://registry.npmjs.org/@oxc-project%2ftypes 61ms (cache miss)
+140 silly packumentCache full:https://registry.npmjs.org/@oxc-project%2ftypes set size:undefined disposed:false
+141 silly fetch manifest @rolldown/binding-linux-x64-musl@1.0.3
+142 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-linux-x64-musl cache-miss
+143 http fetch GET 200 https://registry.npmjs.org/@rolldown%2fbinding-darwin-x64 108ms (cache miss)
+144 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-darwin-x64 set size:undefined disposed:false
+145 silly fetch manifest @rolldown/binding-win32-x64-msvc@1.0.3
+146 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-win32-x64-msvc cache-miss
+147 http fetch GET 200 https://registry.npmjs.org/@rolldown%2fbinding-android-arm64 170ms (cache miss)
+148 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-android-arm64 set size:undefined disposed:false
+149 silly fetch manifest @rolldown/binding-linux-arm64-gnu@1.0.3
+150 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-linux-arm64-gnu cache-miss
+151 http fetch GET 200 https://registry.npmjs.org/@rolldown%2fbinding-linux-x64-musl 113ms (cache miss)
+152 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-linux-x64-musl set size:undefined disposed:false
+153 silly fetch manifest @rolldown/binding-linux-ppc64-gnu@1.0.3
+154 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-linux-ppc64-gnu cache-miss
+155 http fetch GET 200 https://registry.npmjs.org/@rolldown%2fbinding-freebsd-x64 230ms (cache miss)
+156 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-freebsd-x64 set size:undefined disposed:false
+157 silly fetch manifest @rolldown/binding-linux-s390x-gnu@1.0.3
+158 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-linux-s390x-gnu cache-miss
+159 http fetch GET 200 https://registry.npmjs.org/@rolldown%2fbinding-linux-ppc64-gnu 72ms (cache miss)
+160 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-linux-ppc64-gnu set size:undefined disposed:false
+161 silly fetch manifest @rolldown/binding-linux-arm64-musl@1.0.3
+162 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-linux-arm64-musl cache-miss
+163 http fetch GET 200 https://registry.npmjs.org/@rolldown%2fbinding-win32-x64-msvc 173ms (cache miss)
+164 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-win32-x64-msvc set size:undefined disposed:false
+165 silly fetch manifest @rolldown/binding-win32-arm64-msvc@1.0.3
+166 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-win32-arm64-msvc cache-miss
+167 http fetch GET 200 https://registry.npmjs.org/@rolldown%2fbinding-linux-s390x-gnu 70ms (cache miss)
+168 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-linux-s390x-gnu set size:undefined disposed:false
+169 silly fetch manifest @rolldown/binding-openharmony-arm64@1.0.3
+170 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-openharmony-arm64 cache-miss
+171 http fetch GET 200 https://registry.npmjs.org/@rolldown%2fbinding-wasm32-wasi 315ms (cache miss)
+172 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-wasm32-wasi set size:undefined disposed:false
+173 silly fetch manifest @rolldown/binding-linux-arm-gnueabihf@1.0.3
+174 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-linux-arm-gnueabihf cache-miss
+175 http fetch GET 200 https://registry.npmjs.org/@rolldown%2fbinding-linux-x64-gnu 329ms (cache miss)
+176 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-linux-x64-gnu set size:undefined disposed:false
+177 silly fetch manifest fdir@^6.5.0
+178 silly packumentCache full:https://registry.npmjs.org/fdir cache-miss
+179 http fetch GET 200 https://registry.npmjs.org/@rolldown%2fbinding-darwin-arm64 356ms (cache miss)
+180 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-darwin-arm64 set size:undefined disposed:false
+181 http fetch GET 200 https://registry.npmjs.org/@rolldown%2fbinding-openharmony-arm64 62ms (cache miss)
+182 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-openharmony-arm64 set size:undefined disposed:false
+183 http fetch GET 200 https://registry.npmjs.org/@rolldown%2fbinding-linux-arm64-gnu 202ms (cache miss)
+184 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-linux-arm64-gnu set size:undefined disposed:false
+185 http fetch GET 200 https://registry.npmjs.org/fdir 55ms (cache miss)
+186 silly packumentCache full:https://registry.npmjs.org/fdir set size:undefined disposed:false
+187 http fetch GET 200 https://registry.npmjs.org/@rolldown%2fbinding-linux-arm64-musl 152ms (cache miss)
+188 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-linux-arm64-musl set size:undefined disposed:false
+189 http fetch GET 200 https://registry.npmjs.org/@rolldown%2fbinding-win32-arm64-msvc 131ms (cache miss)
+190 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-win32-arm64-msvc set size:undefined disposed:false
+191 http fetch GET 200 https://registry.npmjs.org/@rolldown%2fbinding-linux-arm-gnueabihf 134ms (cache miss)
+192 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-linux-arm-gnueabihf set size:undefined disposed:false
+193 silly placeDep ROOT @oxc-project/types@0.133.0 OK for: rolldown@1.0.3 want: =0.133.0
+194 silly placeDep ROOT @rolldown/binding-android-arm64@1.0.3 OK for: rolldown@1.0.3 want: 1.0.3
+195 silly placeDep ROOT @rolldown/binding-darwin-arm64@1.0.3 OK for: rolldown@1.0.3 want: 1.0.3
+196 silly placeDep ROOT @rolldown/binding-darwin-x64@1.0.3 OK for: rolldown@1.0.3 want: 1.0.3
+197 silly placeDep ROOT @rolldown/binding-freebsd-x64@1.0.3 OK for: rolldown@1.0.3 want: 1.0.3
+198 silly placeDep ROOT @rolldown/binding-linux-arm-gnueabihf@1.0.3 OK for: rolldown@1.0.3 want: 1.0.3
+199 silly placeDep ROOT @rolldown/binding-linux-arm64-gnu@1.0.3 OK for: rolldown@1.0.3 want: 1.0.3
+200 silly placeDep ROOT @rolldown/binding-linux-arm64-musl@1.0.3 OK for: rolldown@1.0.3 want: 1.0.3
+201 silly placeDep ROOT @rolldown/binding-linux-ppc64-gnu@1.0.3 OK for: rolldown@1.0.3 want: 1.0.3
+202 silly placeDep ROOT @rolldown/binding-linux-s390x-gnu@1.0.3 OK for: rolldown@1.0.3 want: 1.0.3
+203 silly placeDep ROOT @rolldown/binding-linux-x64-gnu@1.0.3 OK for: rolldown@1.0.3 want: 1.0.3
+204 silly placeDep ROOT @rolldown/binding-linux-x64-musl@1.0.3 OK for: rolldown@1.0.3 want: 1.0.3
+205 silly placeDep ROOT @rolldown/binding-openharmony-arm64@1.0.3 OK for: rolldown@1.0.3 want: 1.0.3
+206 silly placeDep ROOT @rolldown/binding-wasm32-wasi@1.0.3 OK for: rolldown@1.0.3 want: 1.0.3
+207 silly placeDep ROOT @rolldown/binding-win32-arm64-msvc@1.0.3 OK for: rolldown@1.0.3 want: 1.0.3
+208 silly placeDep ROOT @rolldown/binding-win32-x64-msvc@1.0.3 OK for: rolldown@1.0.3 want: 1.0.3
+209 silly fetch manifest @emnapi/core@1.10.0
+210 silly packumentCache full:https://registry.npmjs.org/@emnapi%2fcore cache-miss
+211 silly fetch manifest @emnapi/runtime@1.10.0
+212 silly packumentCache full:https://registry.npmjs.org/@emnapi%2fruntime cache-miss
+213 silly fetch manifest @napi-rs/wasm-runtime@^1.1.4
+214 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fwasm-runtime cache-miss
+215 http fetch GET 200 https://registry.npmjs.org/@emnapi%2fcore 56ms (cache miss)
+216 silly packumentCache full:https://registry.npmjs.org/@emnapi%2fcore set size:undefined disposed:false
+217 http fetch GET 200 https://registry.npmjs.org/@emnapi%2fruntime 58ms (cache miss)
+218 silly packumentCache full:https://registry.npmjs.org/@emnapi%2fruntime set size:undefined disposed:false
+219 http fetch GET 200 https://registry.npmjs.org/@napi-rs%2fwasm-runtime 60ms (cache miss)
+220 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fwasm-runtime set size:undefined disposed:false
+221 silly placeDep ROOT @emnapi/core@1.10.0 OK for: @rolldown/binding-wasm32-wasi@1.0.3 want: 1.10.0
+222 silly placeDep ROOT @emnapi/runtime@1.10.0 OK for: @rolldown/binding-wasm32-wasi@1.0.3 want: 1.10.0
+223 silly placeDep ROOT @napi-rs/wasm-runtime@1.1.5 OK for: @rolldown/binding-wasm32-wasi@1.0.3 want: ^1.1.4
+224 silly fetch manifest @emnapi/wasi-threads@1.2.1
+225 silly packumentCache full:https://registry.npmjs.org/@emnapi%2fwasi-threads cache-miss
+226 silly fetch manifest @tybys/wasm-util@^0.10.2
+227 silly packumentCache full:https://registry.npmjs.org/@tybys%2fwasm-util cache-miss
+228 http fetch GET 200 https://registry.npmjs.org/@tybys%2fwasm-util 54ms (cache miss)
+229 silly packumentCache full:https://registry.npmjs.org/@tybys%2fwasm-util set size:undefined disposed:false
+230 http fetch GET 200 https://registry.npmjs.org/@emnapi%2fwasi-threads 60ms (cache miss)
+231 silly packumentCache full:https://registry.npmjs.org/@emnapi%2fwasi-threads set size:undefined disposed:false
+232 silly placeDep ROOT @emnapi/wasi-threads@1.2.1 OK for: @emnapi/core@1.10.0 want: 1.2.1
+233 silly placeDep ROOT @tybys/wasm-util@0.10.2 OK for: @napi-rs/wasm-runtime@1.1.5 want: ^0.10.2
+234 silly placeDep ROOT fdir@6.5.0 OK for: tinyglobby@0.2.17 want: ^6.5.0
+235 silly reify mark retired [
+235 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@babel/code-frame'
+235 silly reify ]
+236 silly reify mark retired [
+236 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@babel/compat-data'
+236 silly reify ]
+237 silly reify mark retired [
+237 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@babel/core'
+237 silly reify ]
+238 silly reify mark retired [
+238 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@babel/generator'
+238 silly reify ]
+239 silly reify mark retired [
+239 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@babel/helper-compilation-targets'
+239 silly reify ]
+240 silly reify mark retired [
+240 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@babel/helper-globals'
+240 silly reify ]
+241 silly reify mark retired [
+241 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@babel/helper-module-imports'
+241 silly reify ]
+242 silly reify mark retired [
+242 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@babel/helper-module-transforms'
+242 silly reify ]
+243 silly reify mark retired [
+243 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@babel/helper-plugin-utils'
+243 silly reify ]
+244 silly reify mark retired [
+244 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@babel/helper-string-parser'
+244 silly reify ]
+245 silly reify mark retired [
+245 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@babel/helper-validator-identifier'
+245 silly reify ]
+246 silly reify mark retired [
+246 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@babel/helper-validator-option'
+246 silly reify ]
+247 silly reify mark retired [
+247 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@babel/helpers'
+247 silly reify ]
+248 silly reify mark retired [
+248 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@babel/parser',
+248 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/.bin/parser'
+248 silly reify ]
+249 silly reify mark retired [
+249 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@babel/plugin-transform-react-jsx-self'
+249 silly reify ]
+250 silly reify mark retired [
+250 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@babel/plugin-transform-react-jsx-source'
+250 silly reify ]
+251 silly reify mark retired [
+251 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@babel/template'
+251 silly reify ]
+252 silly reify mark retired [
+252 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@babel/traverse'
+252 silly reify ]
+253 silly reify mark retired [
+253 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@babel/types'
+253 silly reify ]
+254 silly reify mark retired [
+254 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@esbuild/darwin-x64'
+254 silly reify ]
+255 silly reify mark retired [
+255 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@rolldown/pluginutils'
+255 silly reify ]
+256 silly reify mark retired [
+256 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@rollup/rollup-darwin-x64'
+256 silly reify ]
+257 silly reify mark retired [
+257 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@types/babel__core'
+257 silly reify ]
+258 silly reify mark retired [
+258 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@types/babel__generator'
+258 silly reify ]
+259 silly reify mark retired [
+259 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@types/babel__template'
+259 silly reify ]
+260 silly reify mark retired [
+260 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@types/babel__traverse'
+260 silly reify ]
+261 silly reify mark retired [
+261 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@vitejs/plugin-react'
+261 silly reify ]
+262 silly reify mark retired [
+262 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/baseline-browser-mapping',
+262 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/.bin/baseline-browser-mapping'
+262 silly reify ]
+263 silly reify mark retired [
+263 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/browserslist',
+263 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/.bin/browserslist'
+263 silly reify ]
+264 silly reify mark retired [
+264 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/caniuse-lite'
+264 silly reify ]
+265 silly reify mark retired [
+265 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/convert-source-map'
+265 silly reify ]
+266 silly reify mark retired [
+266 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/electron-to-chromium'
+266 silly reify ]
+267 silly reify mark retired [
+267 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/esbuild',
+267 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/.bin/esbuild'
+267 silly reify ]
+268 silly reify mark retired [
+268 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/escalade'
+268 silly reify ]
+269 silly reify mark retired [
+269 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/gensync'
+269 silly reify ]
+270 silly reify mark retired [
+270 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/jsesc',
+270 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/.bin/jsesc'
+270 silly reify ]
+271 silly reify mark retired [
+271 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/json5',
+271 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/.bin/json5'
+271 silly reify ]
+272 silly reify mark retired [
+272 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/lru-cache'
+272 silly reify ]
+273 silly reify mark retired [
+273 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/node-releases'
+273 silly reify ]
+274 silly reify mark retired [
+274 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/react-refresh'
+274 silly reify ]
+275 silly reify mark retired [
+275 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/rollup',
+275 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/.bin/rollup'
+275 silly reify ]
+276 silly reify mark retired [
+276 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/update-browserslist-db',
+276 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/.bin/update-browserslist-db'
+276 silly reify ]
+277 silly reify mark retired [
+277 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/vite',
+277 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/.bin/vite'
+277 silly reify ]
+278 silly reify mark retired [
+278 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/yallist'
+278 silly reify ]
+279 silly reify moves {
+279 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@babel/code-frame': '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@babel/.code-frame-6topnlfE',
+279 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@babel/compat-data': '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@babel/.compat-data-XvUx14nW',
+279 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@babel/core': '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@babel/.core-YlKTUnLq',
+279 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@babel/generator': '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@babel/.generator-psHpYOwS',
+279 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@babel/helper-compilation-targets': '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@babel/.helper-compilation-targets-aJXe5QrM',
+279 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@babel/helper-globals': '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@babel/.helper-globals-PJfoFZQm',
+279 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@babel/helper-module-imports': '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@babel/.helper-module-imports-Bcgyw43G',
+279 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@babel/helper-module-transforms': '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@babel/.helper-module-transforms-ToYKzLWo',
+279 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@babel/helper-plugin-utils': '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@babel/.helper-plugin-utils-GJDr5nQj',
+279 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@babel/helper-string-parser': '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@babel/.helper-string-parser-aLbPSC9V',
+279 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@babel/helper-validator-identifier': '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@babel/.helper-validator-identifier-3bx5ILxU',
+279 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@babel/helper-validator-option': '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@babel/.helper-validator-option-ufaf9OjK',
+279 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@babel/helpers': '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@babel/.helpers-3F728gL6',
+279 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@babel/parser': '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@babel/.parser-zBOY9f3W',
+279 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/.bin/parser': '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/.bin/.parser-Y4dy80fi',
+279 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@babel/plugin-transform-react-jsx-self': '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@babel/.plugin-transform-react-jsx-self-wWj3whLu',
+279 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@babel/plugin-transform-react-jsx-source': '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@babel/.plugin-transform-react-jsx-source-Hb3PpWAp',
+279 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@babel/template': '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@babel/.template-V9iWPKts',
+279 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@babel/traverse': '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@babel/.traverse-RIUv490m',
+279 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@babel/types': '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@babel/.types-xyFUH15p',
+279 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@esbuild/darwin-x64': '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@esbuild/.darwin-x64-BBcFZZpa',
+279 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@rolldown/pluginutils': '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@rolldown/.pluginutils-rWdY2z4V',
+279 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@rollup/rollup-darwin-x64': '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@rollup/.rollup-darwin-x64-fzIXGXKA',
+279 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@types/babel__core': '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@types/.babel__core-bFYOMVkX',
+279 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@types/babel__generator': '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@types/.babel__generator-TOQlYU0N',
+279 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@types/babel__template': '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@types/.babel__template-H2QOFhMd',
+279 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@types/babel__traverse': '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@types/.babel__traverse-qSF6XWVw',
+279 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@vitejs/plugin-react': '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/@vitejs/.plugin-react-1QOD0Jvg',
+279 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/baseline-browser-mapping': '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/.baseline-browser-mapping-rMH83FU7',
+279 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/.bin/baseline-browser-mapping': '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/.bin/.baseline-browser-mapping-M5UvSzpK',
+279 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/browserslist': '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/.browserslist-AP2ePDC2',
+279 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/.bin/browserslist': '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/.bin/.browserslist-Rr2VufZG',
+279 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/caniuse-lite': '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/.caniuse-lite-qWlS4Fiz',
+279 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/convert-source-map': '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/.convert-source-map-XHBS3wkM',
+279 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/electron-to-chromium': '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/.electron-to-chromium-3dRBBaHJ',
+279 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/esbuild': '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/.esbuild-L1arRSM3',
+279 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/.bin/esbuild': '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/.bin/.esbuild-Z9PE6dca',
+279 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/escalade': '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/.escalade-arAhRS6E',
+279 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/gensync': '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/.gensync-E8mfq81K',
+279 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/jsesc': '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/.jsesc-fvZOIxl8',
+279 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/.bin/jsesc': '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/.bin/.jsesc-lAgI7f4x',
+279 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/json5': '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/.json5-yga5jVfG',
+279 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/.bin/json5': '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/.bin/.json5-Crj3vsNj',
+279 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/lru-cache': '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/.lru-cache-K57MnTSc',
+279 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/node-releases': '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/.node-releases-hcENiZDB',
+279 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/react-refresh': '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/.react-refresh-LAXPzo8D',
+279 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/rollup': '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/.rollup-mPm80avi',
+279 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/.bin/rollup': '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/.bin/.rollup-scp3NMIE',
+279 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/update-browserslist-db': '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/.update-browserslist-db-Zz624EYj',
+279 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/.bin/update-browserslist-db': '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/.bin/.update-browserslist-db-OzTUWvwP',
+279 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/vite': '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/.vite-6bKpyuZ0',
+279 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/.bin/vite': '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/.bin/.vite-kdlrKnbm',
+279 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/yallist': '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/.yallist-DdpnMUM4'
+279 silly reify }
+280 silly audit bulk request {
+280 silly audit   '@eslint-community/eslint-utils': [ '4.9.1' ],
+280 silly audit   'eslint-visitor-keys': [ '3.4.3', '4.2.1' ],
+280 silly audit   '@eslint-community/regexpp': [ '4.12.2' ],
+280 silly audit   '@eslint/config-array': [ '0.21.2' ],
+280 silly audit   '@eslint/config-helpers': [ '0.4.2' ],
+280 silly audit   '@eslint/core': [ '0.17.0' ],
+280 silly audit   '@eslint/eslintrc': [ '3.3.5' ],
+280 silly audit   globals: [ '14.0.0', '15.15.0' ],
+280 silly audit   '@eslint/js': [ '9.39.4' ],
+280 silly audit   '@eslint/object-schema': [ '2.1.7' ],
+280 silly audit   '@eslint/plugin-kit': [ '0.4.1' ],
+280 silly audit   '@humanfs/core': [ '0.19.2' ],
+280 silly audit   '@humanfs/node': [ '0.16.8' ],
+280 silly audit   '@humanfs/types': [ '0.15.0' ],
+280 silly audit   '@humanwhocodes/module-importer': [ '1.0.1' ],
+280 silly audit   '@humanwhocodes/retry': [ '0.4.3' ],
+280 silly audit   '@jridgewell/gen-mapping': [ '0.3.13' ],
+280 silly audit   '@jridgewell/remapping': [ '2.3.5' ],
+280 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+280 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.5' ],
+280 silly audit   '@jridgewell/trace-mapping': [ '0.3.31' ],
+280 silly audit   '@tailwindcss/node': [ '4.3.1' ],
+280 silly audit   '@tailwindcss/oxide': [ '4.3.1' ],
+280 silly audit   '@tailwindcss/oxide-android-arm64': [ '4.3.1' ],
+280 silly audit   '@tailwindcss/oxide-darwin-arm64': [ '4.3.1' ],
+280 silly audit   '@tailwindcss/oxide-darwin-x64': [ '4.3.1' ],
+280 silly audit   '@tailwindcss/oxide-freebsd-x64': [ '4.3.1' ],
+280 silly audit   '@tailwindcss/oxide-linux-arm-gnueabihf': [ '4.3.1' ],
+280 silly audit   '@tailwindcss/oxide-linux-arm64-gnu': [ '4.3.1' ],
+280 silly audit   '@tailwindcss/oxide-linux-arm64-musl': [ '4.3.1' ],
+280 silly audit   '@tailwindcss/oxide-linux-x64-gnu': [ '4.3.1' ],
+280 silly audit   '@tailwindcss/oxide-linux-x64-musl': [ '4.3.1' ],
+280 silly audit   '@tailwindcss/oxide-wasm32-wasi': [ '4.3.1' ],
+280 silly audit   '@tailwindcss/oxide-win32-arm64-msvc': [ '4.3.1' ],
+280 silly audit   '@tailwindcss/oxide-win32-x64-msvc': [ '4.3.1' ],
+280 silly audit   '@tailwindcss/vite': [ '4.3.1' ],
+280 silly audit   '@types/estree': [ '1.0.9' ],
+280 silly audit   '@types/json-schema': [ '7.0.15' ],
+280 silly audit   acorn: [ '8.17.0' ],
+280 silly audit   'acorn-jsx': [ '5.3.2' ],
+280 silly audit   ajv: [ '6.15.0' ],
+280 silly audit   'ansi-styles': [ '4.3.0' ],
+280 silly audit   argparse: [ '2.0.1' ],
+280 silly audit   'array-buffer-byte-length': [ '1.0.2' ],
+280 silly audit   'array-includes': [ '3.1.9' ],
+280 silly audit   'array.prototype.findlast': [ '1.2.5' ],
+280 silly audit   'array.prototype.flat': [ '1.3.3' ],
+280 silly audit   'array.prototype.flatmap': [ '1.3.3' ],
+280 silly audit   'array.prototype.tosorted': [ '1.1.4' ],
+280 silly audit   'arraybuffer.prototype.slice': [ '1.0.4' ],
+280 silly audit   'async-function': [ '1.0.0' ],
+280 silly audit   'available-typed-arrays': [ '1.0.7' ],
+280 silly audit   'balanced-match': [ '1.0.2' ],
+280 silly audit   'brace-expansion': [ '1.1.15' ],
+280 silly audit   'call-bind': [ '1.0.9' ],
+280 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+280 silly audit   'call-bound': [ '1.0.4' ],
+280 silly audit   callsites: [ '3.1.0' ],
+280 silly audit   chalk: [ '4.1.2' ],
+280 silly audit   'color-convert': [ '2.0.1' ],
+280 silly audit   'color-name': [ '1.1.4' ],
+280 silly audit   'concat-map': [ '0.0.1' ],
+280 silly audit   'cross-spawn': [ '7.0.6' ],
+280 silly audit   'data-view-buffer': [ '1.0.2' ],
+280 silly audit   'data-view-byte-length': [ '1.0.2' ],
+280 silly audit   'data-view-byte-offset': [ '1.0.1' ],
+280 silly audit   debug: [ '4.4.3' ],
+280 silly audit   'deep-is': [ '0.1.4' ],
+280 silly audit   'define-data-property': [ '1.1.4' ],
+280 silly audit   'define-properties': [ '1.2.1' ],
+280 silly audit   'detect-libc': [ '2.1.2' ],
+280 silly audit   doctrine: [ '2.1.0' ],
+280 silly audit   'dunder-proto': [ '1.0.1' ],
+280 silly audit   'enhanced-resolve': [ '5.21.6' ],
+280 silly audit   'es-abstract': [ '1.24.2' ],
+280 silly audit   'es-abstract-get': [ '1.0.0' ],
+280 silly audit   'es-define-property': [ '1.0.1' ],
+280 silly audit   'es-errors': [ '1.3.0' ],
+280 silly audit   'es-iterator-helpers': [ '1.3.3' ],
+280 silly audit   'es-object-atoms': [ '1.1.2' ],
+280 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+280 silly audit   'es-shim-unscopables': [ '1.1.0' ],
+280 silly audit   'es-to-primitive': [ '1.3.1' ],
+280 silly audit   'escape-string-regexp': [ '4.0.0' ],
+280 silly audit   eslint: [ '9.39.4' ],
+280 silly audit   'eslint-plugin-react': [ '7.37.5' ],
+280 silly audit   'eslint-plugin-react-hooks': [ '5.2.0' ],
+280 silly audit   'eslint-scope': [ '8.4.0' ],
+280 silly audit   espree: [ '10.4.0' ],
+280 silly audit   esquery: [ '1.7.0' ],
+280 silly audit   esrecurse: [ '4.3.0' ],
+280 silly audit   estraverse: [ '5.3.0' ],
+280 silly audit   esutils: [ '2.0.3' ],
+280 silly audit   'fast-deep-equal': [ '3.1.3' ],
+280 silly audit   'fast-json-stable-stringify': [ '2.1.0' ],
+280 silly audit   'fast-levenshtein': [ '2.0.6' ],
+280 silly audit   'file-entry-cache': [ '8.0.0' ],
+280 silly audit   'find-up': [ '5.0.0' ],
+280 silly audit   'flat-cache': [ '4.0.1' ],
+280 silly audit   flatted: [ '3.4.2' ],
+280 silly audit   'for-each': [ '0.3.5' ],
+280 silly audit   'framer-motion': [ '12.40.0' ],
+280 silly audit   'function-bind': [ '1.1.2' ],
+280 silly audit   'function.prototype.name': [ '1.2.0' ],
+280 silly audit   'functions-have-names': [ '1.2.3' ],
+280 silly audit   'generator-function': [ '2.0.1' ],
+280 silly audit   'get-intrinsic': [ '1.3.0' ],
+280 silly audit   'get-proto': [ '1.0.1' ],
+280 silly audit   'get-symbol-description': [ '1.1.0' ],
+280 silly audit   'glob-parent': [ '6.0.2' ],
+280 silly audit   globalthis: [ '1.0.4' ],
+280 silly audit   gopd: [ '1.2.0' ],
+280 silly audit   'graceful-fs': [ '4.2.11' ],
+280 silly audit   'has-bigints': [ '1.1.0' ],
+280 silly audit   'has-flag': [ '4.0.0' ],
+280 silly audit   'has-property-descriptors': [ '1.0.2' ],
+280 silly audit   'has-proto': [ '1.2.0' ],
+280 silly audit   'has-symbols': [ '1.1.0' ],
+280 silly audit   'has-tostringtag': [ '1.0.2' ],
+280 silly audit   hasown: [ '2.0.4' ],
+280 silly audit   ignore: [ '5.3.2' ],
+280 silly audit   'import-fresh': [ '3.3.1' ],
+280 silly audit   imurmurhash: [ '0.1.4' ],
+280 silly audit   'internal-slot': [ '1.1.0' ],
+280 silly audit   'is-array-buffer': [ '3.0.5' ],
+280 silly audit   'is-async-function': [ '2.1.1' ],
+280 silly audit   'is-bigint': [ '1.1.0' ],
+280 silly audit   'is-boolean-object': [ '1.2.2' ],
+280 silly audit   'is-callable': [ '1.2.7' ],
+280 silly audit   'is-core-module': [ '2.16.2' ],
+280 silly audit   'is-data-view': [ '1.0.2' ],
+280 silly audit   'is-date-object': [ '1.1.0' ],
+280 silly audit   'is-document.all': [ '1.0.0' ],
+280 silly audit   'is-extglob': [ '2.1.1' ],
+280 silly audit   'is-finalizationregistry': [ '1.1.1' ],
+280 silly audit   'is-generator-function': [ '1.1.2' ],
+280 silly audit   'is-glob': [ '4.0.3' ],
+280 silly audit   'is-map': [ '2.0.3' ],
+280 silly audit   'is-negative-zero': [ '2.0.3' ],
+280 silly audit   'is-number-object': [ '1.1.1' ],
+280 silly audit   'is-regex': [ '1.2.1' ],
+280 silly audit   'is-set': [ '2.0.3' ],
+280 silly audit   'is-shared-array-buffer': [ '1.0.4' ],
+280 silly audit   'is-string': [ '1.1.1' ],
+280 silly audit   'is-symbol': [ '1.1.1' ],
+280 silly audit   'is-typed-array': [ '1.1.15' ],
+280 silly audit   'is-weakmap': [ '2.0.2' ],
+280 silly audit   'is-weakref': [ '1.1.1' ],
+280 silly audit   'is-weakset': [ '2.0.4' ],
+280 silly audit   isarray: [ '2.0.5' ],
+280 silly audit   isexe: [ '2.0.0' ],
+280 silly audit   'iterator.prototype': [ '1.1.5' ],
+280 silly audit   jiti: [ '2.7.0' ],
+280 silly audit   'js-tokens': [ '4.0.0' ],
+280 silly audit   'js-yaml': [ '4.2.0' ],
+280 silly audit   'json-buffer': [ '3.0.1' ],
+280 silly audit   'json-schema-traverse': [ '0.4.1' ],
+280 silly audit   'json-stable-stringify-without-jsonify': [ '1.0.1' ],
+280 silly audit   'jsx-ast-utils': [ '3.3.5' ],
+280 silly audit   keyv: [ '4.5.4' ],
+280 silly audit   lenis: [ '1.3.23' ],
+280 silly audit   levn: [ '0.4.1' ],
+280 silly audit   lightningcss: [ '1.32.0' ],
+280 silly audit   'lightningcss-android-arm64': [ '1.32.0' ],
+280 silly audit   'lightningcss-darwin-arm64': [ '1.32.0' ],
+280 silly audit   'lightningcss-darwin-x64': [ '1.32.0' ],
+280 silly audit   'lightningcss-freebsd-x64': [ '1.32.0' ],
+280 silly audit   'lightningcss-linux-arm-gnueabihf': [ '1.32.0' ],
+280 silly audit   'lightningcss-linux-arm64-gnu': [ '1.32.0' ],
+280 silly audit   'lightningcss-linux-arm64-musl': [ '1.32.0' ],
+280 silly audit   'lightningcss-linux-x64-gnu': [ '1.32.0' ],
+280 silly audit   'lightningcss-linux-x64-musl': [ '1.32.0' ],
+280 silly audit   'lightningcss-win32-arm64-msvc': [ '1.32.0' ],
+280 silly audit   'lightningcss-win32-x64-msvc': [ '1.32.0' ],
+280 silly audit   'locate-path': [ '6.0.0' ],
+280 silly audit   'lodash.merge': [ '4.6.2' ],
+280 silly audit   'loose-envify': [ '1.4.0' ],
+280 silly audit   'lucide-react': [ '0.468.0' ],
+280 silly audit   'magic-string': [ '0.30.21' ],
+280 silly audit   'math-intrinsics': [ '1.1.0' ],
+280 silly audit   minimatch: [ '3.1.5' ],
+280 silly audit   'motion-dom': [ '12.40.0' ],
+280 silly audit   'motion-utils': [ '12.39.0' ],
+280 silly audit   ms: [ '2.1.3' ],
+280 silly audit   nanoid: [ '3.3.13' ],
+280 silly audit   'natural-compare': [ '1.4.0' ],
+280 silly audit   'node-exports-info': [ '1.6.0' ],
+280 silly audit   'object-assign': [ '4.1.1' ],
+280 silly audit   'object-inspect': [ '1.13.4' ],
+280 silly audit   'object-keys': [ '1.1.1' ],
+280 silly audit   'object.assign': [ '4.1.7' ],
+280 silly audit   'object.entries': [ '1.1.9' ],
+280 silly audit   'object.fromentries': [ '2.0.8' ],
+280 silly audit   'object.values': [ '1.2.1' ],
+280 silly audit   optionator: [ '0.9.4' ],
+280 silly audit   'own-keys': [ '1.0.1' ],
+280 silly audit   'p-limit': [ '3.1.0' ],
+280 silly audit   'p-locate': [ '5.0.0' ],
+280 silly audit   'parent-module': [ '1.0.1' ],
+280 silly audit   'path-exists': [ '4.0.0' ],
+280 silly audit   'path-key': [ '3.1.1' ],
+280 silly audit   'path-parse': [ '1.0.7' ],
+280 silly audit   picocolors: [ '1.1.1' ],
+280 silly audit   'possible-typed-array-names': [ '1.1.0' ],
+280 silly audit   postcss: [ '8.5.15' ],
+280 silly audit   'prelude-ls': [ '1.2.1' ],
+280 silly audit   'prop-types': [ '15.8.1' ],
+280 silly audit   punycode: [ '2.3.1' ],
+280 silly audit   react: [ '18.3.1' ],
+280 silly audit   'react-dom': [ '18.3.1' ],
+280 silly audit   'react-is': [ '16.13.1' ],
+280 silly audit   'reflect.getprototypeof': [ '1.0.10' ],
+280 silly audit   'regexp.prototype.flags': [ '1.5.4' ],
+280 silly audit   resolve: [ '2.0.0-next.7' ],
+280 silly audit   'resolve-from': [ '4.0.0' ],
+280 silly audit   'safe-array-concat': [ '1.1.4' ],
+280 silly audit   'safe-push-apply': [ '1.0.0' ],
+280 silly audit   'safe-regex-test': [ '1.1.0' ],
+280 silly audit   scheduler: [ '0.23.2' ],
+280 silly audit   semver: [ '6.3.1' ],
+280 silly audit   'set-function-length': [ '1.2.2' ],
+280 silly audit   'set-function-name': [ '2.0.2' ],
+280 silly audit   'set-proto': [ '1.0.0' ],
+280 silly audit   'shebang-command': [ '2.0.0' ],
+280 silly audit   'shebang-regex': [ '3.0.0' ],
+280 silly audit   'side-channel': [ '1.1.1' ],
+280 silly audit   'side-channel-list': [ '1.0.1' ],
+280 silly audit   'side-channel-map': [ '1.0.1' ],
+280 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+280 silly audit   'source-map-js': [ '1.2.1' ],
+280 silly audit   'stop-iteration-iterator': [ '1.1.0' ],
+280 silly audit   'string.prototype.matchall': [ '4.0.12' ],
+280 silly audit   'string.prototype.repeat': [ '1.0.0' ],
+280 silly audit   'string.prototype.trim': [ '1.2.11' ],
+280 silly audit   'string.prototype.trimend': [ '1.0.10' ],
+280 silly audit   'string.prototype.trimstart': [ '1.0.8' ],
+280 silly audit   'strip-json-comments': [ '3.1.1' ],
+280 silly audit   'supports-color': [ '7.2.0' ],
+280 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+280 silly audit   tailwindcss: [ '4.3.1' ],
+280 silly audit   tapable: [ '2.3.3' ],
+280 silly audit   tslib: [ '2.8.1' ],
+280 silly audit   'type-check': [ '0.4.0' ],
+280 silly audit   'typed-array-buffer': [ '1.0.3' ],
+280 silly audit   'typed-array-byte-length': [ '1.0.3' ],
+280 silly audit   'typed-array-byte-offset': [ '1.0.4' ],
+280 silly audit   'typed-array-length': [ '1.0.8' ],
+280 silly audit   'unbox-primitive': [ '1.1.0' ],
+280 silly audit   'uri-js': [ '4.4.1' ],
+280 silly audit   which: [ '2.0.2' ],
+280 silly audit   'which-boxed-primitive': [ '1.1.1' ],
+280 silly audit   'which-builtin-type': [ '1.2.1' ],
+280 silly audit   'which-collection': [ '1.0.2' ],
+280 silly audit   'which-typed-array': [ '1.1.22' ],
+280 silly audit   'word-wrap': [ '1.2.5' ],
+280 silly audit   'yocto-queue': [ '0.1.0' ],
+280 silly audit   '@vitejs/plugin-react': [ '6.0.2' ],
+280 silly audit   vite: [ '8.0.16' ],
+280 silly audit   '@rolldown/pluginutils': [ '1.0.1' ],
+280 silly audit   fsevents: [ '2.3.3' ],
+280 silly audit   picomatch: [ '4.0.4' ],
+280 silly audit   rolldown: [ '1.0.3' ],
+280 silly audit   tinyglobby: [ '0.2.17' ],
+280 silly audit   '@oxc-project/types': [ '0.133.0' ],
+280 silly audit   '@rolldown/binding-android-arm64': [ '1.0.3' ],
+280 silly audit   '@rolldown/binding-darwin-arm64': [ '1.0.3' ],
+280 silly audit   '@rolldown/binding-darwin-x64': [ '1.0.3' ],
+280 silly audit   '@rolldown/binding-freebsd-x64': [ '1.0.3' ],
+280 silly audit   '@rolldown/binding-linux-arm-gnueabihf': [ '1.0.3' ],
+280 silly audit   '@rolldown/binding-linux-arm64-gnu': [ '1.0.3' ],
+280 silly audit   '@rolldown/binding-linux-arm64-musl': [ '1.0.3' ],
+280 silly audit   '@rolldown/binding-linux-ppc64-gnu': [ '1.0.3' ],
+280 silly audit   '@rolldown/binding-linux-s390x-gnu': [ '1.0.3' ],
+280 silly audit   '@rolldown/binding-linux-x64-gnu': [ '1.0.3' ],
+280 silly audit   '@rolldown/binding-linux-x64-musl': [ '1.0.3' ],
+280 silly audit   '@rolldown/binding-openharmony-arm64': [ '1.0.3' ],
+280 silly audit   '@rolldown/binding-wasm32-wasi': [ '1.0.3' ],
+280 silly audit   '@rolldown/binding-win32-arm64-msvc': [ '1.0.3' ],
+280 silly audit   '@rolldown/binding-win32-x64-msvc': [ '1.0.3' ],
+280 silly audit   '@emnapi/core': [ '1.10.0' ],
+280 silly audit   '@emnapi/runtime': [ '1.10.0' ],
+280 silly audit   '@napi-rs/wasm-runtime': [ '1.1.5' ],
+280 silly audit   '@emnapi/wasi-threads': [ '1.2.1' ],
+280 silly audit   '@tybys/wasm-util': [ '0.10.2' ],
+280 silly audit   fdir: [ '6.5.0' ]
+280 silly audit }
+281 http cache fdir@https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz 0ms (cache hit)
+282 http cache @tybys/wasm-util@https://registry.npmjs.org/@tybys/wasm-util/-/wasm-util-0.10.2.tgz 0ms (cache hit)
+283 http cache @emnapi/wasi-threads@https://registry.npmjs.org/@emnapi/wasi-threads/-/wasi-threads-1.2.1.tgz 0ms (cache hit)
+284 http cache @emnapi/runtime@https://registry.npmjs.org/@emnapi/runtime/-/runtime-1.10.0.tgz 0ms (cache hit)
+285 http cache @napi-rs/wasm-runtime@https://registry.npmjs.org/@napi-rs/wasm-runtime/-/wasm-runtime-1.1.5.tgz 0ms (cache hit)
+286 http cache @emnapi/core@https://registry.npmjs.org/@emnapi/core/-/core-1.10.0.tgz 0ms (cache hit)
+287 http cache @rolldown/binding-darwin-x64@https://registry.npmjs.org/@rolldown/binding-darwin-x64/-/binding-darwin-x64-1.0.3.tgz 0ms (cache hit)
+288 http cache @oxc-project/types@https://registry.npmjs.org/@oxc-project/types/-/types-0.133.0.tgz 0ms (cache hit)
+289 http cache picomatch@https://registry.npmjs.org/picomatch/-/picomatch-4.0.4.tgz 0ms (cache hit)
+290 http cache fsevents@https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz 0ms (cache hit)
+291 http cache tinyglobby@https://registry.npmjs.org/tinyglobby/-/tinyglobby-0.2.17.tgz 0ms (cache hit)
+292 http cache rolldown@https://registry.npmjs.org/rolldown/-/rolldown-1.0.3.tgz 0ms (cache hit)
+293 http cache @vitejs/plugin-react@https://registry.npmjs.org/@vitejs/plugin-react/-/plugin-react-6.0.2.tgz 1ms (cache hit)
+294 http cache vite@https://registry.npmjs.org/vite/-/vite-8.0.16.tgz 0ms (cache hit)
+295 http cache @rolldown/pluginutils@https://registry.npmjs.org/@rolldown/pluginutils/-/pluginutils-1.0.1.tgz 0ms (cache hit)
+296 silly tarball no local data for fdir@https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz. Extracting by manifest.
+297 silly tarball no local data for @tybys/wasm-util@https://registry.npmjs.org/@tybys/wasm-util/-/wasm-util-0.10.2.tgz. Extracting by manifest.
+298 silly tarball no local data for @emnapi/wasi-threads@https://registry.npmjs.org/@emnapi/wasi-threads/-/wasi-threads-1.2.1.tgz. Extracting by manifest.
+299 silly tarball no local data for @emnapi/runtime@https://registry.npmjs.org/@emnapi/runtime/-/runtime-1.10.0.tgz. Extracting by manifest.
+300 silly tarball no local data for @napi-rs/wasm-runtime@https://registry.npmjs.org/@napi-rs/wasm-runtime/-/wasm-runtime-1.1.5.tgz. Extracting by manifest.
+301 silly tarball no local data for @emnapi/core@https://registry.npmjs.org/@emnapi/core/-/core-1.10.0.tgz. Extracting by manifest.
+302 silly tarball no local data for @rolldown/binding-darwin-x64@https://registry.npmjs.org/@rolldown/binding-darwin-x64/-/binding-darwin-x64-1.0.3.tgz. Extracting by manifest.
+303 silly tarball no local data for @oxc-project/types@https://registry.npmjs.org/@oxc-project/types/-/types-0.133.0.tgz. Extracting by manifest.
+304 silly tarball no local data for picomatch@https://registry.npmjs.org/picomatch/-/picomatch-4.0.4.tgz. Extracting by manifest.
+305 silly tarball no local data for tinyglobby@https://registry.npmjs.org/tinyglobby/-/tinyglobby-0.2.17.tgz. Extracting by manifest.
+306 silly tarball no local data for rolldown@https://registry.npmjs.org/rolldown/-/rolldown-1.0.3.tgz. Extracting by manifest.
+307 silly tarball no local data for @vitejs/plugin-react@https://registry.npmjs.org/@vitejs/plugin-react/-/plugin-react-6.0.2.tgz. Extracting by manifest.
+308 silly tarball no local data for vite@https://registry.npmjs.org/vite/-/vite-8.0.16.tgz. Extracting by manifest.
+309 silly tarball no local data for @rolldown/pluginutils@https://registry.npmjs.org/@rolldown/pluginutils/-/pluginutils-1.0.1.tgz. Extracting by manifest.
+310 http fetch GET 200 https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz 127ms (cache miss)
+311 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 242ms
+312 silly audit report {}
+313 http fetch GET 200 https://registry.npmjs.org/@oxc-project/types/-/types-0.133.0.tgz 274ms (cache miss)
+314 http fetch GET 200 https://registry.npmjs.org/tinyglobby/-/tinyglobby-0.2.17.tgz 279ms (cache miss)
+315 http fetch GET 200 https://registry.npmjs.org/@vitejs/plugin-react/-/plugin-react-6.0.2.tgz 295ms (cache miss)
+316 http fetch GET 200 https://registry.npmjs.org/@rolldown/pluginutils/-/pluginutils-1.0.1.tgz 314ms (cache miss)
+317 http fetch GET 200 https://registry.npmjs.org/@emnapi/wasi-threads/-/wasi-threads-1.2.1.tgz 328ms (cache miss)
+318 http fetch GET 200 https://registry.npmjs.org/picomatch/-/picomatch-4.0.4.tgz 333ms (cache miss)
+319 http fetch GET 200 https://registry.npmjs.org/@emnapi/runtime/-/runtime-1.10.0.tgz 366ms (cache miss)
+320 http fetch GET 200 https://registry.npmjs.org/@emnapi/core/-/core-1.10.0.tgz 460ms (cache miss)
+321 http fetch GET 200 https://registry.npmjs.org/@tybys/wasm-util/-/wasm-util-0.10.2.tgz 516ms (cache miss)
+322 http fetch GET 200 https://registry.npmjs.org/rolldown/-/rolldown-1.0.3.tgz 509ms (cache miss)
+323 http fetch GET 200 https://registry.npmjs.org/vite/-/vite-8.0.16.tgz 536ms (cache miss)
+324 http fetch GET 200 https://registry.npmjs.org/@napi-rs/wasm-runtime/-/wasm-runtime-1.1.5.tgz 574ms (cache miss)
+325 http fetch GET 200 https://registry.npmjs.org/@rolldown/binding-darwin-x64/-/binding-darwin-x64-1.0.3.tgz 768ms (cache miss)
+326 info run fsevents@2.3.3 install node_modules/fsevents node-gyp rebuild
+327 info run fsevents@2.3.3 install { code: 1, signal: null }
+328 verbose reify failed optional dependency /Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/fsevents
+329 silly reify mark deleted [
+329 silly reify   '/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/node_modules/fsevents'
+329 silly reify ]
+330 silly ADD node_modules/fdir
+331 silly ADD node_modules/@tybys/wasm-util
+332 silly ADD node_modules/@emnapi/wasi-threads
+333 silly ADD node_modules/@napi-rs/wasm-runtime
+334 silly ADD node_modules/@emnapi/runtime
+335 silly ADD node_modules/@emnapi/core
+336 silly ADD node_modules/@rolldown/binding-darwin-x64
+337 silly ADD node_modules/@oxc-project/types
+338 silly ADD node_modules/tinyglobby
+339 silly ADD node_modules/rolldown
+340 silly ADD node_modules/picomatch
+341 silly ADD
+342 silly REMOVE node_modules/yallist
+343 silly CHANGE node_modules/vite
+344 silly REMOVE node_modules/update-browserslist-db
+345 silly REMOVE node_modules/rollup
+346 silly REMOVE node_modules/react-refresh
+347 silly REMOVE node_modules/node-releases
+348 silly REMOVE node_modules/lru-cache
+349 silly REMOVE node_modules/json5
+350 silly REMOVE node_modules/jsesc
+351 silly REMOVE node_modules/gensync
+352 silly REMOVE node_modules/escalade
+353 silly REMOVE node_modules/esbuild
+354 silly REMOVE node_modules/electron-to-chromium
+355 silly REMOVE node_modules/convert-source-map
+356 silly REMOVE node_modules/caniuse-lite
+357 silly REMOVE node_modules/browserslist
+358 silly REMOVE node_modules/baseline-browser-mapping
+359 silly CHANGE node_modules/@vitejs/plugin-react
+360 silly REMOVE node_modules/@types/babel__traverse
+361 silly REMOVE node_modules/@types/babel__template
+362 silly REMOVE node_modules/@types/babel__generator
+363 silly REMOVE node_modules/@types/babel__core
+364 silly REMOVE node_modules/@rollup/rollup-darwin-x64
+365 silly CHANGE node_modules/@rolldown/pluginutils
+366 silly REMOVE node_modules/@esbuild/darwin-x64
+367 silly REMOVE node_modules/@babel/types
+368 silly REMOVE node_modules/@babel/traverse
+369 silly REMOVE node_modules/@babel/template
+370 silly REMOVE node_modules/@babel/plugin-transform-react-jsx-source
+371 silly REMOVE node_modules/@babel/plugin-transform-react-jsx-self
+372 silly REMOVE node_modules/@babel/parser
+373 silly REMOVE node_modules/@babel/helpers
+374 silly REMOVE node_modules/@babel/helper-validator-option
+375 silly REMOVE node_modules/@babel/helper-validator-identifier
+376 silly REMOVE node_modules/@babel/helper-string-parser
+377 silly REMOVE node_modules/@babel/helper-plugin-utils
+378 silly REMOVE node_modules/@babel/helper-module-transforms
+379 silly REMOVE node_modules/@babel/helper-module-imports
+380 silly REMOVE node_modules/@babel/helper-globals
+381 silly REMOVE node_modules/@babel/helper-compilation-targets
+382 silly REMOVE node_modules/@babel/generator
+383 silly REMOVE node_modules/@babel/core
+384 silly REMOVE node_modules/@babel/compat-data
+385 silly REMOVE node_modules/@babel/code-frame
+386 verbose cwd /Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer
+387 verbose os Darwin 24.6.0
+388 verbose node v24.15.0
+389 verbose npm  v11.12.1
+390 verbose exit 0
+391 info ok

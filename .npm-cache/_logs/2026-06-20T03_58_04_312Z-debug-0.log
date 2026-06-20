@@ -1,0 +1,19 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@11.12.1
+2 info using node@v24.15.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/.npmrc
+5 silly config load:file:/Users/itsmeck/.npmrc
+6 silly config load:file:/usr/local/etc/npmrc
+7 verbose title npm view lenis version
+8 verbose argv "view" "lenis" "version" "--cache" "./.npm-cache"
+9 verbose logfile logs-max:10 dir:/Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/.npm-cache/_logs/2026-06-20T03_58_04_312Z-
+10 verbose logfile /Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer/.npm-cache/_logs/2026-06-20T03_58_04_312Z-debug-0.log
+11 silly logfile done cleaning log files
+12 http fetch GET 200 https://registry.npmjs.org/lenis 253ms (cache revalidated)
+13 verbose cwd /Users/itsmeck/Documents/Codex/2026-06-19/you-are-a-senior-ui-engineer
+14 verbose os Darwin 24.6.0
+15 verbose node v24.15.0
+16 verbose npm  v11.12.1
+17 verbose exit 0
+18 info ok

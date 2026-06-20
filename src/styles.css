@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Lora:wght@400;500&family=Noto+Serif+Devanagari:wght@400;500&family=Noto+Serif+Telugu:wght@400;500&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Cormorant Garamond", serif;
+  --font-lora: "Lora", serif;
+  --font-devanagari: "Noto Serif Devanagari", serif;
+  --font-telugu: "Noto Serif Telugu", serif;
+  --color-ink: #2d281f;
+  --color-ash: #766d60;
+  --color-ivory: #fbf8ef;
+  --color-warm: #f7f1e4;
+  --color-sand: #e8d7b7;
+  --color-bronze: #927546;
+  --color-gold: #c7a867;
+  --color-paper: #f5efe2;
+}
+
+html {
+  scroll-behavior: auto;
+  background: #fbf8ef;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  color: #2d281f;
+  background:
+    radial-gradient(circle at 12% 8%, rgba(199, 168, 103, 0.12), transparent 28rem),
+    linear-gradient(180deg, #fbf8ef, #f7f1e4);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body::before {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  pointer-events: none;
+  content: "";
+  opacity: 0.45;
+  background-image:
+    linear-gradient(rgba(115, 92, 55, 0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(115, 92, 55, 0.035) 1px, transparent 1px);
+  background-size: 42px 42px;
+  mix-blend-mode: multiply;
+}
+
+::selection {
+  color: #fbf8ef;
+  background: #927546;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
