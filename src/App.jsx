@@ -415,10 +415,10 @@ function ClosingBlessing() {
         <p className="font-lora text-xs uppercase tracking-[0.35em] text-bronze">Blessings</p>
         <div className="mt-8 grid w-full gap-5 border-y border-bronze/18 py-8 lg:grid-cols-2 lg:items-center">
           <p className="font-devanagari text-[clamp(2rem,4vw,4rem)] leading-tight text-ink">
-            सर्वे भवन्तु सुखिनः
+            सर्वे जनाः सुखिनो भवन्तु
           </p>
           <p className="font-telugu text-[clamp(1.9rem,3.8vw,3.8rem)] leading-tight text-ink">
-            సర్వే భవంతు సుఖినః
+            సర్వే జనా సుఖినో భవంతు
           </p>
         </div>
         <p className="mt-8 font-lora text-xs uppercase tracking-[0.32em] text-bronze">Spandan Seal</p>

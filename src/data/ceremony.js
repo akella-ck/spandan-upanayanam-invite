@@ -5,14 +5,14 @@ export const ceremony = {
   venueName: "SV Lotus Temple",
   venueAddress: "12501 Braddock Rd, Fairfax, VA 22030",
   directionsUrl: "https://www.google.com/maps/search/?api=1&query=12501%20Braddock%20Rd%2C%20Fairfax%2C%20VA%2022030",
-  parents: ["Subramanya Kalidasu", "Anuradha Meduri"],
+  parents: ["Subramanya Kalidasu", "Anuradha Kalidasu"],
   elderBrother: "Nikhil Kalidasu",
   photoGalleryRedirectUrl: "https://photos.app.goo.gl/Z6WYM9cV5NzGVZsFA",
   rsvpRedirectUrl: "https://forms.gle/bX2LtQ9aQ9Atc38AA",
 };
 
 export const invitation = {
-  hosts: ["Subramanya Kalidasu", "Anuradha Meduri"],
+  hosts: ["Subramanya Kalidasu", "Anuradha Kalidasu"],
   elderBrother: "Nikhil Kalidasu",
   note:
     "invite you to bless Spandan Kalidasu as he begins the sacred discipline of learning, prayer, and inner light.",
