@@ -115,6 +115,15 @@ function Hero() {
               Save to Calendar
             </a>
             <a
+              href={ceremony.photoGalleryRedirectUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-3 rounded-full border border-bronze/25 bg-white/30 px-6 py-3 font-lora text-sm text-ink/85 backdrop-blur-md transition hover:border-bronze/60 hover:bg-white/60 hover:text-ink"
+            >
+              <Camera size={16} />
+              Photo Gallery
+            </a>
+            <a
               href={ceremony.rsvpRedirectUrl}
               className="inline-flex items-center gap-3 rounded-full border border-bronze/25 bg-white/30 px-6 py-3 font-lora text-sm text-ink/85 backdrop-blur-md transition hover:border-bronze/60 hover:bg-white/60 hover:text-ink"
             >
