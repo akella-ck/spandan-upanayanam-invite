@@ -19,18 +19,21 @@ function escapeCalendarText(value) {
 }
 
 function createCalendarInviteUrl() {
-  const title = `${ceremony.childName} Upanayanam - Muhurtham ${ceremony.muhurtamTime}`;
+  const title = `${ceremony.childName} Upanayanam`;
   const description = `Upanayanam ceremony for ${ceremony.childName} at ${ceremony.venueName}. Muhurtham time: ${ceremony.muhurtamTime}.`;
   const lines = [
     "BEGIN:VCALENDAR",
     "VERSION:2.0",
     "CALSCALE:GREGORIAN",
+    "METHOD:PUBLISH",
     "PRODID:-//Kalidasu Family//Upanayanam Invitation//EN",
     "BEGIN:VEVENT",
     "UID:spandan-kalidasu-upanayanam-20260711@kalidasu-family",
     "DTSTAMP:20260620T000000Z",
     "DTSTART;VALUE=DATE:20260711",
     "DTEND;VALUE=DATE:20260712",
+    "TRANSP:TRANSPARENT",
+    "X-MICROSOFT-CDO-ALLDAYEVENT:TRUE",
     `SUMMARY:${escapeCalendarText(title)}`,
     `DESCRIPTION:${escapeCalendarText(description)}`,
     `LOCATION:${escapeCalendarText(`${ceremony.venueName}, ${ceremony.venueAddress}`)}`,
