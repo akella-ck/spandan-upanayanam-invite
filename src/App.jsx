@@ -20,7 +20,7 @@ function escapeCalendarText(value) {
 
 function createCalendarInviteUrl() {
   const title = `${ceremony.childName} Upanayanam`;
-  const description = `Upanayanam ceremony for ${ceremony.childName} at ${ceremony.venueName}.`;
+  const description = `Upanayanam ceremony for ${ceremony.childName} at ${ceremony.venueName}. Muhurtam: ${ceremony.muhurtamTime}.`;
   const lines = [
     "BEGIN:VCALENDAR",
     "VERSION:2.0",
@@ -29,8 +29,8 @@ function createCalendarInviteUrl() {
     "BEGIN:VEVENT",
     "UID:spandan-kalidasu-upanayanam-20260711@kalidasu-family",
     "DTSTAMP:20260620T000000Z",
-    "DTSTART;VALUE=DATE:20260711",
-    "DTEND;VALUE=DATE:20260712",
+    "DTSTART;TZID=America/New_York:20260711T121500",
+    "DTEND;TZID=America/New_York:20260711T131500",
     `SUMMARY:${escapeCalendarText(title)}`,
     `DESCRIPTION:${escapeCalendarText(description)}`,
     `LOCATION:${escapeCalendarText(`${ceremony.venueName}, ${ceremony.venueAddress}`)}`,
@@ -87,8 +87,10 @@ function Hero() {
         <motion.h1 variants={softReveal} className="font-display text-[clamp(3.7rem,10vw,9.5rem)] font-medium leading-[0.82] text-ink">
           {ceremony.childName}
         </motion.h1>
-        <motion.div variants={softReveal} className="mx-auto mt-8 grid max-w-2xl gap-4 font-lora text-base text-ash sm:grid-cols-3">
+        <motion.div variants={softReveal} className="mx-auto mt-8 grid max-w-4xl gap-4 font-lora text-base text-ash sm:grid-cols-[1fr_auto_1fr_auto_1fr]">
           <span className="flex items-center justify-center gap-2"><CalendarDays size={18} />{ceremony.date}</span>
+          <span className="hidden justify-center text-bronze sm:flex">|</span>
+          <span className="flex items-center justify-center text-bronze">Muhurtam {ceremony.muhurtamTime}</span>
           <span className="hidden justify-center text-bronze sm:flex">|</span>
           <a
             href={ceremony.directionsUrl}
@@ -233,6 +235,9 @@ function SacredJourney() {
           </h2>
           <p className="mt-8 max-w-lg font-lora text-lg leading-9 text-ash">
             The morning moves through invocation, purification, vow, teaching, humility, and blessing.
+          </p>
+          <p className="mt-6 font-lora text-sm uppercase tracking-[0.22em] text-bronze">
+            {ceremony.date} · Muhurtam {ceremony.muhurtamTime}
           </p>
           <div className="mt-10 grid max-w-sm grid-cols-3 border-y border-bronze/20 py-5">
             {["prayer", "study", "grace"].map((word) => (
@@ -386,9 +391,10 @@ function VisitDetails() {
               </a>
             </div>
           </div>
-          <div className="mt-6 grid grid-cols-2 gap-5 font-lora text-sm uppercase tracking-[0.18em] text-bronze">
+          <div className="mt-6 grid gap-4 font-lora text-sm uppercase tracking-[0.18em] text-bronze sm:grid-cols-3">
             <p>{ceremony.date}</p>
-            <p className="text-right">{ceremony.venueName}</p>
+            <p className="sm:text-center">Muhurtam {ceremony.muhurtamTime}</p>
+            <p className="sm:text-right">{ceremony.venueName}</p>
           </div>
         </Reveal>
       </div>
