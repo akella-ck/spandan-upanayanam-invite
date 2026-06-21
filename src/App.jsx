@@ -19,8 +19,8 @@ function escapeCalendarText(value) {
 }
 
 function createCalendarInviteUrl() {
-  const title = `${ceremony.childName} Upanayanam`;
-  const description = `Upanayanam ceremony for ${ceremony.childName} at ${ceremony.venueName}. Muhurtam: ${ceremony.muhurtamTime}.`;
+  const title = `${ceremony.childName} Upanayanam - Muhurtham ${ceremony.muhurtamTime}`;
+  const description = `Upanayanam ceremony for ${ceremony.childName} at ${ceremony.venueName}. Muhurtham time: ${ceremony.muhurtamTime}.`;
   const lines = [
     "BEGIN:VCALENDAR",
     "VERSION:2.0",
