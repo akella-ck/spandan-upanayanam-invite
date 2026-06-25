@@ -12,11 +12,13 @@ export const ceremony = {
 };
 
 export const invitation = {
-  hosts: ["Subramanya Kalidasu", "Anuradha Kalidasu"],
+  hosts: ["Dr. Kalidasu Purushotham", "Kalidasu Satyavathi"],
   elderBrother: "Nikhil Kalidasu",
   note:
     "invite you to bless Spandan Kalidasu as he begins the sacred discipline of learning, prayer, and inner light.",
 };
+
+export const elderBlessings = ["Meduri Bala Krishna Satya Ravi", "Meduri Girija Devi"];
 
 export const sacredJourney = [
   {

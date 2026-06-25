@@ -11,7 +11,7 @@ import { TempleLine } from "./assets/TempleLine";
 import { Hairline, OmMark } from "./components/Ornament";
 import { Reveal } from "./components/Reveal";
 import { Section } from "./components/Section";
-import { ceremony, graduationMilestones, invitation, sacredJourney } from "./data/ceremony";
+import { ceremony, elderBlessings, graduationMilestones, invitation, sacredJourney } from "./data/ceremony";
 import { softReveal, stagger } from "./utils/motion";
 
 function escapeCalendarText(value) {
@@ -152,35 +152,50 @@ function Invitation() {
       <div className="mx-auto flex max-w-5xl flex-col items-center text-center">
         <Reveal>
           <p className="font-lora text-sm uppercase tracking-[0.34em] text-bronze">With reverence</p>
-          <Hairline className="mx-auto mt-10 max-w-2xl" />
+          <Hairline className="mx-auto mt-8 max-w-lg" />
         </Reveal>
-        <Reveal delay={0.12} className="mt-12 w-full">
-          <p className="font-lora text-sm uppercase tracking-[0.28em] text-bronze">Parents</p>
-          <div className="mx-auto mt-6 grid max-w-6xl items-center gap-4 sm:grid-cols-[1fr_auto_1fr]">
-            <p className="font-display text-[clamp(2.9rem,5.5vw,6rem)] leading-[0.88] text-ink sm:text-right">
-              {ceremony.parents[0]}
+        <Reveal delay={0.12} className="mt-10 w-full">
+          <p className="font-lora text-sm uppercase tracking-[0.28em] text-bronze">Grandparents</p>
+          <div className="mx-auto mt-5 flex max-w-6xl flex-col items-center justify-center gap-2 sm:flex-row sm:gap-4">
+            <p className="font-lora text-xl leading-8 text-ink sm:text-2xl sm:leading-9">
+              {invitation.hosts[0]}
             </p>
-            <p className="font-display text-[clamp(2.4rem,4vw,4rem)] leading-none text-gold/65">&amp;</p>
-            <p className="font-display text-[clamp(2.9rem,5.5vw,6rem)] leading-[0.88] text-ink sm:text-left">
-              {ceremony.parents[1]}
-            </p>
-          </div>
-          <div className="mx-auto mt-10 max-w-2xl border-y border-bronze/20 py-6">
-            <p className="font-lora text-xs uppercase tracking-[0.28em] text-bronze">Elder brother</p>
-            <p className="mt-3 font-display text-[clamp(2.4rem,5vw,5rem)] leading-[0.92] text-ink">
-              {invitation.elderBrother}
+            <span className="font-display text-3xl leading-none text-gold/65" aria-hidden="true">&amp;</span>
+            <p className="font-lora text-xl leading-8 text-ink sm:text-2xl sm:leading-9">
+              {invitation.hosts[1]}
             </p>
           </div>
         </Reveal>
-        <Reveal delay={0.2} className="mt-10 max-w-2xl">
-          <p className="font-lora text-base leading-8 text-ash">invite you to bless</p>
-          <p className="mt-2 font-display text-[clamp(2.9rem,5.6vw,5.8rem)] leading-[0.9] text-ink">
+        <Reveal delay={0.2} className="mt-9 w-full max-w-4xl">
+          <p className="font-lora text-base leading-8 text-ash">invite you to bless their grandson</p>
+          <p className="mt-3 font-display text-[clamp(3.2rem,6.2vw,6.4rem)] leading-[0.88] text-ink">
             {ceremony.childName}
           </p>
-          <p className="mt-5 font-lora text-lg leading-9 text-ash sm:text-xl sm:leading-10">
+          <div className="mx-auto mt-8 grid max-w-4xl gap-6 border-y border-bronze/18 py-5 text-center lg:grid-cols-[1fr_auto_1fr] lg:items-center">
+            <div className="mx-auto max-w-sm">
+              <p className="font-lora text-xs uppercase tracking-[0.28em] text-bronze">Son of</p>
+              <div className="mt-3 font-lora text-xl leading-8 text-ink sm:text-2xl sm:leading-9">
+                <p className="whitespace-nowrap">
+                  {ceremony.parents[0]} <span className="text-gold/65">&amp;</span>
+                </p>
+                <p className="whitespace-nowrap">{ceremony.parents[1]}</p>
+              </div>
+            </div>
+            <span className="hidden h-20 w-px bg-bronze/16 lg:block" aria-hidden="true" />
+            <div className="mx-auto max-w-sm">
+              <p className="font-lora text-xs uppercase tracking-[0.28em] text-bronze">With elder brother</p>
+              <p className="mt-3 font-lora text-xl leading-8 text-ink sm:text-2xl sm:leading-9">
+                {invitation.elderBrother}
+              </p>
+            </div>
+          </div>
+          <p className="mx-auto mt-6 max-w-2xl font-lora text-lg leading-9 text-ash">
             as he begins the sacred discipline of learning, prayer, and inner light.
           </p>
-          <p className="mt-7 font-lora text-base uppercase tracking-[0.22em] text-bronze">with the blessings of our elders</p>
+          <p className="mt-6 font-lora text-sm uppercase tracking-[0.24em] text-bronze sm:text-base">with the blessings of our elders</p>
+          <p className="mx-auto mt-3 max-w-2xl font-lora text-base leading-8 text-ash sm:text-lg">
+            {elderBlessings.join(" & ")}
+          </p>
         </Reveal>
       </div>
     </Section>
