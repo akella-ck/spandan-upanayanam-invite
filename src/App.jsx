@@ -192,7 +192,7 @@ function Invitation() {
           <p className="mx-auto mt-6 max-w-2xl font-lora text-lg leading-9 text-ash">
             as he begins the sacred discipline of learning, prayer, and inner light.
           </p>
-          <p className="mt-6 font-lora text-sm uppercase tracking-[0.24em] text-bronze sm:text-base">with the blessings of our elders</p>
+          <p className="mt-6 font-lora text-sm uppercase tracking-[0.24em] text-bronze sm:text-base">with the blessings of</p>
           <p className="mx-auto mt-3 max-w-2xl font-lora text-base leading-8 text-ash sm:text-lg">
             {elderBlessings.join(" & ")}
           </p>
